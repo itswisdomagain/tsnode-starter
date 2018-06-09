@@ -1,0 +1,22 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.3.0",
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  }
+}
